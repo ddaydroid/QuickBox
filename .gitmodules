@@ -1,15 +1,15 @@
 [submodule "setup"]
 	path = setup
-	url = git@github.com:QuickBox/quickbox_setup.git
+	url = https://github.com/QuickBox/quickbox_setup.git
 [submodule "dashboard"]
 	path = dashboard
-	url = git@github.com:QuickBox/quickbox_dashboard.git
+	url = https://github.com/QuickBox/quickbox_dashboard.git
 [submodule "rutorrent"]
 	path = rutorrent
-	url = git@github.com:QuickBox/quickbox_rutorrent.git
+	url = https://github.com/QuickBox/quickbox_rutorrent.git
 [submodule "rtplugins"]
 	path = rtplugins
-	url = git@github.com:QuickBox/quickbox_rutorrent-plugins.git
+	url = https://github.com/QuickBox/quickbox_rutorrent-plugins.git
 [submodule "packages"]
 	path = packages
-	url = git@github.com:QuickBox/quickbox_packages.git
+	url = https://github.com/QuickBox/quickbox_packages.git
