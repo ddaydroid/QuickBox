@@ -85,7 +85,7 @@ QuickBox is divided into it's relevant parts that aim to make the update process
 
 #### Here are the Repos & examples:
 
-* [quickbox_setup](https://github.com/QuickBox/quickbox_setup) - this is the repo used for the initial setup of QuickBox on the users server. This can be installed by doing the following:
+* [quickbox_setup](https://lab.quickbox.io/QuickBox/quickbox_setup) - this is the repo used for the initial setup of QuickBox on the users server. This can be installed by doing the following:
 ```
 git clone https://lab.quickbox.io/QuickBox/quickbox_setup quickbox_setup
 cd quickbox_setup
