@@ -41,7 +41,7 @@ After that access your box using a SSH client, like PuTTY.
 Though his script is valid for both VPS & Dedicated Environments, please be advised the it's support is limited on OpenVZ environments due to lack of kernel control. If you are installing on OpenVZ quotas may not work.
 
 
-####You must be logged in as root to run this installation.
+#### You must be logged in as root to run this installation.
 
 
 ---
@@ -83,7 +83,7 @@ The following is the Repo structure of the current QuickBox EcoSystem. Installat
 
 QuickBox is divided into it's relevant parts that aim to make the update process as simple as possible on a rolling update fashion. This is so we can continually pull fresh commits/updates as they are released within the master branch of each designated zone. Sounds technical? It's actually simple... it works by cloning certain parts of QuickBox into relevant pieces on your server for ease of use and updates.
 
-####Here are the Repos & examples:
+#### Here are the Repos & examples:
 
 * [quickbox_setup](https://github.com/QuickBox/quickbox_setup) - this is the repo used for the initial setup of QuickBox on the users server. This can be installed by doing the following:
 ```
@@ -93,7 +93,6 @@ bash quickbox-setup
 ```
 
 * [quickbox_rutorrent](https://lab.quickbox.io/QuickBox/quickbox_rutorrent) - this is the repo used for ruTorrent. All ruTorrent relevant plugins and theme adjustments, fixes, additions and extra enhancements will be included here.
-
 Much like the quickbox_setup repo, the script will be pulled via the following:
 ```
 git clone https://lab.quickbox.io/QuickBox/quickbox_rutorrent quickbox_rutorrent
@@ -101,7 +100,6 @@ git clone https://lab.quickbox.io/QuickBox/quickbox_rutorrent quickbox_rutorrent
 This is handled during the initial install with the quickbox_setup repo. The quickbox_rutorrent directory is then copied over to your /srv/ directory where it maintains it's git-like qualities for easy updating later on.
 
 * [quickbox_dashboard](https://lab.quickbox.io/QuickBox/quickbox_dashboard) - this is the repo used for the QuickBox UI. All QuickBox Dashboard relevant widgets and theme adjustments, fixes, additions, extra enhancements and **future language files** will be included here.
-
 Much like the other repo's, the script will be pulled via the following as an example:
 ```
 git clone https://lab.quickbox.io/QuickBox/quickbox_dashboard quickbox_dashboard
