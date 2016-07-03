@@ -16,7 +16,7 @@
 
 ---
 
-###Quick Advisory Notice(s) on QuickBox
+### Quick Advisory Notice(s) on QuickBox
 
 >### :rotating_light: Heads Up!
 grsec is built into OVH's custom kernel and it absolutely wrecks havoc when using these panels where we depend on the ability for one user (www-data) to see the processes of another running user ($username).
