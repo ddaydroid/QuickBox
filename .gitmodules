@@ -7,9 +7,6 @@
 [submodule "rutorrent"]
 	path = rutorrent
 	url = https://lab.quickbox.io/QuickBox/quickbox_rutorrent.git
-[submodule "rtplugins"]
-	path = rtplugins
-	url = https://lab.quickbox.io/QuickBox/quickbox_rutorrent-plugins.git
 [submodule "packages"]
 	path = packages
 	url = https://lab.quickbox.io/QuickBox/quickbox_packages.git
