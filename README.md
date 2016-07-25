@@ -5,7 +5,7 @@
 
 ## Script status
 
-[![Version 2.4.3-production](https://img.shields.io/badge/version-2.4.3-674172.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31)
+[![Version 2.4.4-production](https://img.shields.io/badge/version-2.4.4-674172.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31)
 [![GNU v3.0 License](https://img.shields.io/badge/license-GNU%20v3.0%20License-blue.svg?style=flat-square)](https://github.com/Swizards/QuickBox/blob/master/LICENSE.md)
 
 #### Ubuntu Builds
@@ -79,11 +79,12 @@ After installing you will have access to the following commands to be used direc
 
 ---
 ## QuickBox Repo Structure
-The following is the Repo structure of the current QuickBox EcoSystem. Installation instructions may still be found within the [Swizards/QuickBox](https://lab.quickbox.io/Swizards/QuickBox) Repo on GitHub, but this will be used to address the functionality and the installation procedures of the script itself. Any pull requests must be done within the repo you aim to add functionality and address any issues found.
+The following is the Repo structure of the current QuickBox EcoSystem. Installation instructions may still be found within the [Swizards/QuickBox](https://lab.quickbox.io/Swizards/QuickBox) Repo on GitHub, but this will be used to address the functionality and the installation procedures of the script itself and will not receive devoted attention to updating. Any pull requests must be done within the repo you aim to add functionality and address any issues found.
 
 QuickBox is divided into it's relevant parts that aim to make the update process as simple as possible on a rolling update fashion. This is so we can continually pull fresh commits/updates as they are released within the master branch of each designated zone. Sounds technical? It's actually simple... it works by cloning certain parts of QuickBox into relevant pieces on your server for ease of use and updates.
 
 #### Here are the Repos & examples:
+>Please not that these are all contained within the [QuickBox/QuickBox](https://lab.quickbox.io/QuickBox/QuickBox) head as submodules.
 
 * [quickbox_setup](https://lab.quickbox.io/QuickBox/quickbox_setup) - this is the repo used for the initial setup of QuickBox on the users server. This can be installed by doing the following:
 ```
