@@ -37,6 +37,7 @@ After that access your box using a SSH client, like PuTTY.
 
 
 > ### :loudspeaker: Heads up!
+It is advised that you use a KVM or better provisioned server/VPS. QuickBox, nor it's support staff will offer support to users on OpenVZ provisioned servers.
 Though his script is valid for both VPS & Dedicated Environments, please be advised the it's support is limited on OpenVZ environments due to lack of kernel control. If you are installing on OpenVZ quotas and additional hooks may not work.
 
 
