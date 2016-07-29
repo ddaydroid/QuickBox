@@ -1,5 +1,4 @@
 
-
 ### For a full README and CHANGELOG
 > For a full README and CHANGELOG on QuickBox as well as how to install, please visit the [QuickBox Plaza](https://plaza.quickbox.io/t/quickbox-readme-md/31)
 
@@ -38,7 +37,7 @@ After that access your box using a SSH client, like PuTTY.
 
 
 > ### :loudspeaker: Heads up!
-Though his script is valid for both VPS & Dedicated Environments, please be advised the it's support is limited on OpenVZ environments due to lack of kernel control. If you are installing on OpenVZ quotas may not work.
+Though his script is valid for both VPS & Dedicated Environments, please be advised the it's support is limited on OpenVZ environments due to lack of kernel control. If you are installing on OpenVZ quotas and additional hooks may not work.
 
 
 #### You must be logged in as root to run this installation.
