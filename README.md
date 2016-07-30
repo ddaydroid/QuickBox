@@ -51,8 +51,8 @@ Though his script is valid for both VPS & Dedicated Environments, please be advi
 **Run the following command to grab our latest stable release ...**
 ```
 apt-get -yqq update; apt-get -yqq upgrade; apt-get -yqq install git lsb-release; \
-git clone --recursive https://lab.quickbox.io/QuickBox/QuickBox QuickBox &&
-bash ~/QuickBox/setup/quickbox-setup
+git clone --recursive https://lab.quickbox.io/QuickBox/QuickBox /root/QuickBox &&
+bash /root/QuickBox/setup/quickbox-setup
 ```
 
 
