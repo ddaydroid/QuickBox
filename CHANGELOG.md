@@ -5,14 +5,14 @@ _Changelog updated Saturday, August 21, 2016_
 
 ---
 
-###General adjustments & additions
+### General adjustments & additions
 * Version Bump set to **2.4.6**
 * Below we will outline the changes that have brought us from 2.4.0 to the current stable 2.4.4
 
-###Commit Histories by Submodule v2.4.6
+### Commit Histories by Submodule v2.4.6
 ---
 
-####QuickBox/quickbox_dashboard version 2.4.6
+#### QuickBox/quickbox_dashboard version 2.4.6
 
 * [fix] deluge & rutorrent panel links [633446c2](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/633446c2c7508d5946380f39bc4a11150c1eae3a)
 * [enhancement] nextcloud is here! [13c75b70](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/13c75b7084b783bc3b9e0c67c3df00127a905b47)
@@ -23,7 +23,7 @@ _Changelog updated Saturday, August 21, 2016_
 * [fix] removed characters causing breakage on language files [66264062](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/66264062123399345ef68d3dfba20118fb0b4600)
 
 
-####QuickBox/quickbox-packages version 2.4.6
+#### QuickBox/quickbox-packages version 2.4.6
 
 * Further refine IFACE detection X2 [f607391b](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/f607391b92cf0f3239b4a1d87c64887dd81080ef) & [6e42136f](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/6e42136fc2dbcffe569683dce62287140fd5c9bd)
 * [security] Remove php execution for existing users on update [1d74f999](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/1d74f99974231955cac6b00d2715fa2e151737e0)
@@ -39,18 +39,18 @@ _Changelog updated Saturday, August 21, 2016_
 * [enhancement] vpn management now included - type: `quickVPN` [c5dbf75a](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/c5dbf75a1ffc9eed4878240eecc7189b7dcfdc5d)
 
 
-####QuickBox/quickbox-rutorrent version 2.4.5
+#### QuickBox/quickbox-rutorrent version 2.4.5
 
 * updated gitignore - overlook conf and share directories [69aa9c50](https://lab.quickbox.io/QuickBox/quickbox_rutorrent/commit/69aa9c5079fc7bfe04ed4a195ded682ceed0c0d9)
 * update rutorrent to latest novik/master [14d8951a](https://lab.quickbox.io/QuickBox/quickbox_rutorrent/commit/14d8951ac669fe92fbdfb221e39d6fe24f66d22b)
 
 
-####QuickBox/quickbox_rutorrent-plugins version 2.4.5
+#### QuickBox/quickbox_rutorrent-plugins version 2.4.5
 
 * No Changes
 
 
-####QuickBox/quickbox-setup version 2.4.5
+#### QuickBox/quickbox-setup version 2.4.5
 
 * Further refine IFACE detection [96553245](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/96553245c90e089b7f4720db9aa170556cf36f39)
 * minor typo fix [d634ec68](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/d634ec682d13f8d49912af39c7cb4079a1ff1065)
@@ -67,20 +67,20 @@ _Changelog updated Saturday, August 21, 2016_
 
 ---
 
-##CHANGELOG v2.4.5:
+## CHANGELOG v2.4.5:
 _Changelog updated Saturday, August 21, 2016_
 
 ---
 
 
-###General adjustments & additions
+### General adjustments & additions
 * Version Bump set to **2.4.5**
 * Below we will outline the changes that have brought us from 2.4.0 to the current stable 2.4.4
 
-###Commit Histories by Submodule v2.4.5
+### Commit Histories by Submodule v2.4.5
 ---
 
-####QuickBox/quickbox_dashboard version 2.4.5
+#### QuickBox/quickbox_dashboard version 2.4.5
 
 * updated language files to reflect new batch installer command `box install <app>` [4f7565b0](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/4f7565b0d5735d278d49d0cb12dff629d8611c66)
  <sup>+ BOX is QuickBoxs new batch installer for easy installation of applications simultaneously. Type `box install <app>` to install an application from cli or type: `box install <app> <app>` to install multiple applications at once.</sup>
@@ -99,14 +99,14 @@ _Changelog updated Saturday, August 21, 2016_
  <sup>+ special thanks to @sadpanda for granting access to a machine to troubleshoot and find a fix for this</sup>
 
 
-####QuickBox/quickbox-packages version 2.4.5
+#### QuickBox/quickbox-packages version 2.4.5
 
 * New method for determining IFACE, more OpenVZ-friendly [d539c3b5](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/d539c3b5092d3c19972e7a57fff1fe7c453595ba)
 * Remove outdated and refactored QBPM [d0c171dd](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/d0c171dd0afbe0d6c164d37cd24bad5a04068c71)
 * Introducing box -- QBPM just got better! [d4e0a24b](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/d4e0a24badd14cada54a1ffe70e0e45dc9a78631)
 * updated installer packages for cleaner and quieter execution [6e29dd38](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/6e29dd38f02403e6efa3db86c89a4b7bf6e1a58f)
 
-#####What is `box`?
+##### What is `box`?
 Building off of our CLI based updater, there have been a few tweaks to make installing and/or removing multiple applications at once a total breeze. Additionally, the new QBPM (QuickBox Package Management) codenamed: BOX now supports updating/upgrading your QuickBox. It's truly an all-in-one management utility for those of us who prefer rolling in ssh.
 If you prefer to still use the GUI aspect of the installer you can call box without any arguments. box -h will show you a help screen.
 **BOX CHEATSHEET**
@@ -138,18 +138,18 @@ list           The list command will list packages available to be
 ```
 
 
-####QuickBox/quickbox-rutorrent version 2.4.5
+#### QuickBox/quickbox-rutorrent version 2.4.5
 
 * No Changes
 
 
-####QuickBox/quickbox_rutorrent-plugins version 2.4.5
+#### QuickBox/quickbox_rutorrent-plugins version 2.4.5
 
 * .gitignore added - ignore plugins conf.php [88355fa9](https://lab.quickbox.io/QuickBox/quickbox_rutorrent-plugins/commit/88355fa9ebba7e6adea571e555f80c2455fc83ab)
 * update rutorrent plugins to latest novik/master (fix utf8 encodings) [c3c0c5c4](https://lab.quickbox.io/QuickBox/quickbox_rutorrent-plugins/commit/c3c0c5c4d9566538c6498a9d2cbba097ee70f936)
 
 
-####QuickBox/quickbox-setup version 2.4.5
+#### QuickBox/quickbox-setup version 2.4.5
 
 * added newer archived source of plex [2c561819](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/2c5618197c4a8bc48ae972ee20ba877190380309)
 * **[enhancement]** new aliases for added for easy disk widget fixes/updates [cbcd144f](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/cbcd144fdffb072f780ec65970fa7d038df47782)
