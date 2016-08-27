@@ -4,7 +4,7 @@
 
 ## Script status
 
-[![Version 2.4.6-production](https://img.shields.io/badge/version-2.4.6-674172.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31)
+[![Version 2.4.7-production](https://img.shields.io/badge/version-2.4.7-674172.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31)
 [![GNU v3.0 License](https://img.shields.io/badge/license-GNU%20v3.0%20License-blue.svg?style=flat-square)](https://github.com/Swizards/QuickBox/blob/master/LICENSE.md)
 
 #### Ubuntu Builds
