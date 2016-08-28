@@ -1,5 +1,112 @@
 ---
 
+##CHANGELOG v2.4.7:
+_Changelog updated Sunday, August 28, 2016_
+
+---
+
+### General adjustments & additions
+* Version Bump set to **2.4.7**
+* SABnzbd - much requested and now officially supported!
+* pyLoad - it has been lurking in the shadows and waiting for the include, well... here it is!
+* Subsonic - music fans rejoice, Subsonic is now supported in the QuickBox Eco-System
+* Numerous fixes have been introduced
+ + Default OVH Kernel's are now automagically updated on QuickBox install (option presents)
+ + Deluge package installer hiccups have been burped
+ + There were some typos :blush:
+ + PlexRequests.NET resets are no more (mono dependencies addressed)
+ + `upgradePlex` will now update bot Plex Free and PlexPass users
+* Several enhancements to make your QuickBox experience every bit of stellar (see below)
+
+### Commit Histories by Submodule v2.4.7
+---
+
+#### QuickBox/quickbox_dashboard version 2.4.7
+
+* Added translations for pyLoad, SABnzbd & Subsonic + Minor changes (*lang_fr*) [96eb4862](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/96eb4862c30c3b57055c6f94de9107772014ca3f)
+* core config for service toggles and processing updated [7031cc4a](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/7031cc4a38c3b67bb9c7809c764d126656fd199f)
+* create dashboard toggles and service status for new applications [71a0b2a9](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/71a0b2a96a38fabea2ba7508dafc86e3327069b1)
+* include new packages within the data array [f2dee90e](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/f2dee90e594ff83e9d4870babc9b8118ed823d22)
+* add modal calls to new packages and applications to panel.scripts [45980fd6](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/45980fd63aed300acfa81106956a0b1feacbbc7c)
+* [ux] reorganize and add new menu items [6aa0ba45](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/6aa0ba45b9ea52528f25a006a4f7facdacf7d6ca)
+ + <sup>pyLoad, SABnzbd and Subsonic are not included in the menu</sup>
+* reorganize ajax for cpu and bandwidth charts (tidyness) [91ad9d6c](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/91ad9d6c3291c1a18b506d95975296d63d719e7a)
+* [fix] we now utilize `box upgrade` to update from the dashboard as well [2107321c](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/2107321cb8cfd42f92f386bf7d700c3c202dc6f5)
+* language files updated with new package variables [2b7f43f7](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/2b7f43f7601897f8be8928ded6f160b68069e767)
+* sabnzbd brand icon added [d73949d6](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/d73949d675d2c594f49c0fc401c9956b30960fa7)
+* pyload brand icon added [25a8acaa](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/25a8acaae6d787e1a693af0e6dc2cef54db3838a)
+* removing useless files in preparation for v2.4.7 update [b8de5709](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/b8de5709d780018b4c0f9b75b113bdd546039aa7)
+* merged updated lang_de from @cinory [5b8b9ded](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/5b8b9ded72d394074f77c1530aaff07b9b007f32)
+* adding subsonic brand icon ;) [7543add8](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/7543add8a1ba8fecbe10668f0da9616bacf39bdf)
+* [fix] merged minor corrections on lang_fr from @tomcdj71 [c96fd892](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/c96fd8924ceec75d7c5a78c3aaf4423e08b741ae)
+* merged updated lang_fr from @tomcdj71 [aa9005b1](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/aa9005b1ca3047e7453eeb8848214d6091613ffe)
+* Update lang_dk with new strings :) [1e26b672](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/1e26b672416cd95e199db39b9baca4c7d791d125)
+* language files updated with new values for translation [17a366f7](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/17a366f73230ac18725a5b41c17874b365749b6c)
+* additional language strings added on alert modals/popups [5e81e904](https://lab.quickbox.io/QuickBox/quickbox_dashboard/commit/5e81e904a8fcc05eb2ac536a12d1ae8324ae9e8b)
+
+
+#### QuickBox/quickbox-packages version 2.4.7
+
+* copy local repo bash profile to system and source on update [149288eb](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/149288eb2cae54de85d0fbb6d1caa08b0b60f771)
+* setup subsonic uninstaller package [4374c223](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/4374c223ce3048d188bdb33251f0ec7eeeec8915)
+* setup sabnzbd uninstaller package [82297ea4](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/82297ea45e8ff60151f821303b6604bde3f0e09b)
+* create pyload package uninstaller [5ebabd4e](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/5ebabd4edcd7b13f07b2861b345979a91913291c)
+* setup subsonic install package [bcc1ffb3](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/bcc1ffb3ef64fe18a44b9d6782db885048cfda65)
+* Sabnzbd scripts [7e11fe52](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/7e11fe5286f9481e39e2e975d503353495c01d4f)
+ + <sup>Special thanks to @kc1 for supplying these</sup>
+* create pyload package installer [a7d3bcab](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/a7d3bcab8cbfb2d1c0618b9fd415684b2e45e370)
+* [fix] addressed issues with deluge package installer [dd97f5f0](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/dd97f5f07ea5331905b2422ae6b7eade7800ab52)
+* updated $master user file location & repo location [d79ab410](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/d79ab4106afe56f22c69bd3cc5da0072dcf25072)
+* [fix] use lab.quickbox.io in upgrade script [529789b9](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/529789b97e1a6a2979ee68ff95189a5b895fdb7d)
+ + <sup>thanks for pointing that out @eclipse</sup>
+* [fix] typo in word "decimals". [254688fb](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/254688fb07ab958cb746089c22d5b4118d2cca6c)
+* [fix] address mono depends for plexrequests.net [9999a769](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/9999a769c02627776acfe41ca31c415a2e80da33)
+* Minor packages readme update [e8aa71cc](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/e8aa71cca7af92583ceef3a5e3d0c4d5b8de7fb6)
+
+
+#### QuickBox/quickbox-rutorrent version 2.4.7
+
+> Note: RUTorrent changes are sourced from their original GitHub repo provided by it's maintainer
+https://github.com/Novik/ruTorrent
+
+* minor typo [f3f0785d](https://lab.quickbox.io/QuickBox/quickbox_rutorrent/commit/f3f0785db5a0954bf5ac132f86bc6742c619456c)
+
+
+#### QuickBox/quickbox_rutorrent-plugins version 2.4.7
+
+* update `_task` plugin to match Novik fixes [5ff0c6e2](https://lab.quickbox.io/QuickBox/quickbox_rutorrent-plugins/commit/5ff0c6e2da15e7c391a1f07c914ede688bd77ec7)
+* remove duplicate out-dated theme [53c7b585](https://lab.quickbox.io/QuickBox/quickbox_rutorrent-plugins/commit/53c7b5850813fdd3ecb5237ad161e56ffcf5eb76)
+ + <sup>QuickBox-Dark is the parent to club-Swizards, which is the current and developed/maintained theme</sup>
+
+
+#### QuickBox/quickbox-setup version 2.4.7
+
+* added pyload, sabnzbd and subsonic to sudoers allowed list [4e4519b1](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/4e4519b1d664589f22c544f1acdc4dec890ec3fb)
+* setup subsonic sysd template [cd149da4](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/cd149da45807f967b4a06785d6efb44f9693315c)
+* use subsonic.sh template and import to installer [3dc27726](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/3dc27726b825e05bff717c94ddb12efcb55c79f5)
+* [enhancement] add bash profile template as some providers may not have them implemented on OS build [bfbc1eff](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/bfbc1eff67ab2cb2c78a2d2005dd268dd890cf98)
+* created pyload functions for setup and upgrade [c7964d43](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/c7964d431586b9b89c98933cc97831ad50a059d9)
+* improved the `fixhome` alias function [d8bb1e84](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/d8bb1e84d472a04260f6453e14e1a6e5b62b9925)
+ + <sup>`fixhome` now wants to know specific user of interest</sup>
+* [fix] `prompt_OFF` was not resetting to default system prompt [c958f6bb](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/c958f6bb57c12c6c0a91e9c1ddb200097e2a5e56)
+* [enhancement] better aesthetic on QuickBox bash greeting [49e05238](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/49e0523864bced042b8b1ea67bb8b485f93d7e64)
+* removed deprecated .startup functions [6b150850](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/6b1508500056f794e22200e76f62c0d5ae2580e4)
+* enable proxy_fci module and php7.0-fpm conf on initial install [7a580fa3](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/7a580fa3b240baf21c7a98b10ad275fd7b274ac8)
+* [enhancement] setup custom bash profile for sourcing on install [dc665f9e](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/dc665f9e3ea1140c109d0e7b4301397c68cbe163)
+* [enhancement] compile x265 libraries with ffmpeg on initial install [89614f97](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/89614f970b4b89739556bea530defb797fb30009)
+* [fix] remove club-Swizards github clone - clone from lab.quickbox.io [1f591d45](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/1f591d451d7869fa1da0544607d73e3d6f8ecb41)
+* Converted to latest .rtorrent.rc syntax. Added "network.tos.set = throughput". [7b4dd4bb](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/7b4dd4bb8d45161fdc345530ff2d2f99e22aa940)
+* added utf-8 enconding to rtorrent.rc template [d08a280b](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/d08a280b62d32747e6083149b8a9a4edcaa7c744)
+* added utf-8 encoding to vsftpd config [a051465b](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/a051465babef845dd8813d295b309d2cbe422ac5)
+* Small fixes to checkkernel + run function [677826f8](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/677826f8279959d8622838cf22529f6bac0b6c34)
+* Update grsec function for correctness [4b29077b](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/4b29077bd03581525815f73c7583996a2130929a)
+* tidy up unused functions and lines [f9481562](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/f94815621c3ca27ebed1827d8018156f38e491ad)
+* [enhancement] smarter `upgradePlex` command - now updates PlexPass users [8e234bf8](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/8e234bf84dbc25db7d93fc79fdd1767bf6a764b7)
+
+
+
+---
+
 ##CHANGELOG v2.4.6:
 _Changelog updated Saturday, August 21, 2016_
 
@@ -7,7 +114,6 @@ _Changelog updated Saturday, August 21, 2016_
 
 ### General adjustments & additions
 * Version Bump set to **2.4.6**
-* Below we will outline the changes that have brought us from 2.4.0 to the current stable 2.4.4
 
 ### Commit Histories by Submodule v2.4.6
 ---
@@ -39,18 +145,18 @@ _Changelog updated Saturday, August 21, 2016_
 * [enhancement] vpn management now included - type: `quickVPN` [c5dbf75a](https://lab.quickbox.io/QuickBox/quickbox_packages/commit/c5dbf75a1ffc9eed4878240eecc7189b7dcfdc5d)
 
 
-#### QuickBox/quickbox-rutorrent version 2.4.5
+#### QuickBox/quickbox-rutorrent version 2.4.6
 
 * updated gitignore - overlook conf and share directories [69aa9c50](https://lab.quickbox.io/QuickBox/quickbox_rutorrent/commit/69aa9c5079fc7bfe04ed4a195ded682ceed0c0d9)
 * update rutorrent to latest novik/master [14d8951a](https://lab.quickbox.io/QuickBox/quickbox_rutorrent/commit/14d8951ac669fe92fbdfb221e39d6fe24f66d22b)
 
 
-#### QuickBox/quickbox_rutorrent-plugins version 2.4.5
+#### QuickBox/quickbox_rutorrent-plugins version 2.4.6
 
 * No Changes
 
 
-#### QuickBox/quickbox-setup version 2.4.5
+#### QuickBox/quickbox-setup version 2.4.6
 
 * Further refine IFACE detection [96553245](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/96553245c90e089b7f4720db9aa170556cf36f39)
 * minor typo fix [d634ec68](https://lab.quickbox.io/QuickBox/quickbox_setup/commit/d634ec682d13f8d49912af39c7cb4079a1ff1065)
@@ -75,7 +181,6 @@ _Changelog updated Saturday, August 21, 2016_
 
 ### General adjustments & additions
 * Version Bump set to **2.4.5**
-* Below we will outline the changes that have brought us from 2.4.0 to the current stable 2.4.4
 
 ### Commit Histories by Submodule v2.4.5
 ---
