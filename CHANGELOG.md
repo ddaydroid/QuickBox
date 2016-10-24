@@ -1,3 +1,49 @@
+
+##CHANGELOG v2.4.8:
+_Changelog updated Monday, October 24, 2016_
+
+---
+
+### General adjustments & additions
+* Version Bump set to **2.4.8**
+* Emby - much requested Plex alternative and now officially supported!
+* Custom Menu - thou shalt not overwrite my custom links
+* Custom URL Override - using your own custom proxy configs for your favorite application? No problem, we got you covered now!
+* Numerous fixes have been introduced
+ + QuickBox now proxies around 90% of it's supported applications for sexxy urls.
+ + Added fix to some package installers to ensure proper install
+ + There were some typos :blush:
+* Several enhancements to make your QuickBox experience every bit of stellar (see below)
+
+### Commit Histories by Submodule v2.4.8
+---
+
+#### QuickBox/quickbox_dashboard version 2.4.8
+
+* Compare changes from v2.4.7 to v2.4.8 <sup>[COMPARE +25 commits](https://lab.quickbox.io/QuickBox/quickbox_dashboard/compare/65a33b195b43ea50138cb498bd4aaa069c6e9f1f...67b3a76eaf609dde7cdc87638898bec4ac7bfc17)</sup>
+
+
+#### QuickBox/quickbox-packages version 2.4.8
+
+* Compare changes from v2.4.7 to v2.4.8 <sup>[COMPARE +52 commits](https://lab.quickbox.io/QuickBox/quickbox_packages/compare/c6028fa228e862e75f9db9c705dd97227e689b27...2a1f8f11b7952c921c993ff02f945c654e21b715)</sup>
+
+#### QuickBox/quickbox-rutorrent version 2.4.8
+
+> Note: RUTorrent changes are sourced from their original GitHub repo provided by it's maintainer
+https://github.com/Novik/ruTorrent
+
+* Compare changes from v2.4.7 to v2.4.8 <sup>[COMPARE +0 commits]</sup>
+
+
+#### QuickBox/quickbox_rutorrent-plugins version 2.4.8
+
+* Compare changes from v2.4.7 to v2.4.8 <sup>[COMPARE +1 commits](https://lab.quickbox.io/QuickBox/quickbox_rutorrent-plugins/compare/43f6d5d28c8adfd63c214db7d06a058af41b3dc7...7c6b49b872886a26267a47dbb9d6e487ac6e5f76)</sup>
+
+
+#### QuickBox/quickbox-setup version 2.4.8
+
+* Compare changes from v2.4.7 to v2.4.8 <sup>[COMPARE +23 commits](https://lab.quickbox.io/QuickBox/quickbox_setup/compare/8926132144f103a7ba54e41045c64ea7cc850ed0...7237652e33f33a2c47629116db0fb083d6b195d2)</sup>
+
 ---
 
 ##CHANGELOG v2.4.7:
