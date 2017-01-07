@@ -1,3 +1,5 @@
+## All pulls are currently handled via QuickBox own GitLab at [lab.quickbox.io](https://lab.quickbox.io)
+
 ## Script status
 
 [![Version 2.4.8-production](https://img.shields.io/badge/version-2.4.8-674172.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31) [![GNU v3.0 License](https://img.shields.io/badge/license-GNU%20v3.0%20License-blue.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31)
@@ -21,7 +23,7 @@ grsec is built into OVH's custom kernel and it absolutely wrecks havoc when usin
 
 
 ---
-> Please understand that we do not want to push this project as a means to supply a commercially used product, ie; seedbox provider - so keep this in mind - only if you wish to sale slots on your server. Though it is very multi-user friendly... it is also not free of it's faults due to it's high amount of capabilities and being publicly available. This is a community based project that is a measure of goodwill to be given to such an outspoken and freethinking community. If you are a provider and are in need of a high-quality, white-labled solution - please feel free to get in touch with our team and we will certainly negotiate a solution that best fits your needs and is free of any possible bugs.
+> Please understand that we do not want to push this project as a means to supply a commercially used product, ie; seedbox provider - so keep this in mind - only if you wish to sale slots on your server. Though it is very multi-user friendly... it is also not free of it's faults due to it's high amount of capabilities and being publicly available. This is a community based project that is a measure of goodwill to be given to such an outspoken and freethinking community.
 
 ### A Preview of Quick Box
 https://quickbox.io/video/quickbox-video-demo-tour.mp4
