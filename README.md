@@ -149,7 +149,6 @@ bash /root/QuickBox/setup/quickbox-setup
 ## Commands
 After installing you will have access to the following commands to be used directly in terminal
 
-* <del>quickbox</del> - tells you which version QuickBox you are running and shows commands list ``deprecated due to versioning now shows on the dashboard under username dropdown as well as login to bash``
 * __createSeedboxUser__ - creates a shelled seedbox user
 * __deleteSeedboxUser__ - deletes a created seedbox user and their directories
 <sup>**This is permanent, current data will be deleted - you can create them again at any time**</sup>
