@@ -1,4 +1,4 @@
-## All pulls are currently handled via QuickBox own GitLab at [github.com](https://github.com)
+## We are currently converting the entire QuickBox ecosystem over to GitHub for better handling. We will post more info shortly on how to convert your current install to make use of the GitHub repo.
 
 ## Script status
 
