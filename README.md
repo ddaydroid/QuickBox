@@ -1,5 +1,38 @@
 ## We are currently converting the entire QuickBox ecosystem over to GitHub for better handling. We will post more info shortly on how to convert your current install to make use of the GitHub repo.
 
+## To make use of the GitHub repo (all future updates posted here!)
+
+### [1]:
+login to your server via ssh. Gain root access with `sudo su` followed up with `cd` to place you in your /root directory. Once in your /root directory, type the following to remove your current local QuickBox respositories.
+```
+rm -rf QuickBox
+```
+
+### [2]:
+grab the current/future QuickBox repository with the following:
+```
+git clone --recursive https://github.com/QuickBox/QuickBox /root/QuickBox
+```
+
+### [3]:
+update your current update function by doing the following:
+```
+local_packages=/root/QuickBox/packages/
+rm -rf /usr/local/bin/quickbox
+cp -r ${local_packages}/. /usr/local/bin/quickbox
+dos2unix $(find /usr/local/bin/quickbox -type f)
+chmod +x $(find /usr/local/bin/quickbox -type f)
+cp -f /usr/local/bin/quickbox/system/reload /usr/bin/reload
+```
+
+### [4]:
+run the upgrade script to match any recent changes and to get you on your way:
+```
+box upgrade
+```
+
+---
+
 ## Script status
 
 [![Version 2.4.8-production](https://img.shields.io/badge/version-2.4.8-674172.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31) [![GNU v3.0 License](https://img.shields.io/badge/license-GNU%20v3.0%20License-blue.svg?style=flat-square)](https://plaza.quickbox.io/t/quickbox-readme-md/31)
