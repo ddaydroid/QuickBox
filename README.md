@@ -207,4 +207,4 @@ cp -r quickbox_packages/. /usr/local/bin/
  ```
 <sup>Again, this is just an excerpt and this function is handled by the script. Just as with any of the other features, navigate to ``/usr/local/bin/quickbox`` and run ``git pull`` to push updates to your server.</sup>
 
-* [club-Swizards](https://github.com/Swizards/club-Swizards) - this is the custom ruTorrent theme created and designed by Swizards. Any adjustments you would like to push can be made here. Updating the template... again, as simple as ``git pull`` from within ``/srv/rutorrent/plugins/theme/themes/club-Swizards``. The theme is independent of the update for the rutorrent directory which handles plugins etc.
+* [club-QuickBox](https://github.com/QuickBox/club-QuickBox) - this is the custom ruTorrent theme created and designed by QuickBox. Any adjustments you would like to push can be made here. Updating the template... again, as simple as ``git pull`` from within ``/srv/rutorrent/plugins/theme/themes/club-QuickBox``. The theme is independent of the update for the rutorrent directory which handles plugins etc.
