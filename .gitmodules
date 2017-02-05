@@ -18,3 +18,7 @@
 	path = rtplugins
 	url = https://github.com/QuickBox/quickbox_rutorrent-plugins.git
 	branch = master
+	[submodule "rttheme"]
+		path = rttheme
+		url = https://github.com/QuickBox/club-QuickBox.git
+		branch = master
