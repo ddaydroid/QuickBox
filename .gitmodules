@@ -6,6 +6,10 @@
 	path = dashboard
 	url = https://github.com/QuickBox/quickbox_dashboard.git
 	branch = master
+[submodule "themes"]
+	path = themes
+	url = https://github.com/QuickBox/quickbox_themes.git
+	branch = master
 [submodule "rutorrent"]
 	path = rutorrent
 	url = https://github.com/QuickBox/quickbox_rutorrent.git
