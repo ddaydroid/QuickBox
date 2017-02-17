@@ -1,28 +1,28 @@
 [submodule "setup"]
 	path = setup
 	url = https://github.com/QuickBox/quickbox_setup.git
-	branch = master
+	branch = development
 [submodule "dashboard"]
 	path = dashboard
 	url = https://github.com/QuickBox/quickbox_dashboard.git
-	branch = master
+	branch = development
 [submodule "themes"]
 	path = themes
 	url = https://github.com/QuickBox/quickbox_themes.git
-	branch = master
+	branch = development
 [submodule "rutorrent"]
 	path = rutorrent
 	url = https://github.com/QuickBox/quickbox_rutorrent.git
-	branch = master
+	branch = development
 [submodule "packages"]
 	path = packages
 	url = https://github.com/QuickBox/quickbox_packages.git
-	branch = master
+	branch = development
 [submodule "rtplugins"]
 	path = rtplugins
 	url = https://github.com/QuickBox/quickbox_rutorrent-plugins.git
-	branch = master
+	branch = development
 	[submodule "rttheme"]
 		path = rttheme
 		url = https://github.com/QuickBox/club-QuickBox.git
-		branch = master
+		branch = development
