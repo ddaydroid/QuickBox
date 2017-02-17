@@ -185,23 +185,23 @@ QuickBox is divided into it's relevant parts that aim to make the update process
 
 * [quickbox_setup](https://github.com/QuickBox/quickbox_setup) - this is the repo used for the initial setup of QuickBox on the users server. This can be installed by doing the following:
  ```
-git clone https://github.com/QuickBox/quickbox_setup quickbox_setup
-cd quickbox_setup
+git clone https://github.com/QuickBox/quickbox_setup /etc/QuickBox/setup
+cd /etc/QuickBox/setup
 bash quickbox-setup
  ```
 
 * [quickbox_rutorrent](https://github.com/QuickBox/quickbox_rutorrent) - this is the repo used for ruTorrent. All ruTorrent relevant plugins and theme adjustments, fixes, additions and extra enhancements will be included here.
 Much like the quickbox_setup repo, the script will be pulled via the following:
 ```
-git clone https://github.com/QuickBox/quickbox_rutorrent quickbox_rutorrent
+git clone https://github.com/QuickBox/quickbox_rutorrent /etc/QuickBox/rutorrent
 ```
 This is handled during the initial install with the quickbox_setup repo. The quickbox_rutorrent directory is then copied over to your /srv/ directory where it maintains it's git-like qualities for easy updating later on.
 
 * [quickbox_dashboard](https://github.com/QuickBox/quickbox_dashboard) - this is the repo used for the QuickBox UI. All QuickBox Dashboard relevant widgets and theme adjustments, fixes, additions, extra enhancements and **future language files** will be included here.
 Much like the other repo's, the script will be pulled via the following as an example:
  ```
-git clone https://github.com/QuickBox/quickbox_dashboard quickbox_dashboard
-cd  quickbox_dashboard
+git clone https://github.com/QuickBox/quickbox_dashboard /etc/QuickBox/dashboard
+cd  /etc/QuickBox/dashboard
 mkdir -p /srv/rutorrent/home
 cp -r home/. /srv/rutorrent/home
  ```
@@ -210,9 +210,9 @@ cp -r home/. /srv/rutorrent/home
 * [quickbox_packages](https://github.com/QuickBox/quickbox_packages) - this is the repo used for the installers and uninstallers. All needed files/commands for packages installers/removers as well as plugin installers/removers will be included here.
 Much like the other repo, the script will be pulled via the following:
  ```
-git clone https://github.com/QuickBox/quickbox_packages quickbox_packages
-cd  quickbox_packages
-cp -r quickbox_packages/. /usr/local/bin/
+git clone https://github.com/QuickBox/quickbox_packages /etc/QuickBox/packages
+cd  /etc/QuickBox/packages
+cp -r packages/. /usr/local/bin/
  ```
 <sup>Again, this is just an excerpt and this function is handled by the script. Just as with any of the other features, navigate to ``/usr/local/bin/quickbox`` and run ``git pull`` to push updates to your server.</sup>
 
