@@ -11,7 +11,7 @@ rm -rf QuickBox
 ### [2]:
 grab the current/future QuickBox repository with the following:
 ```
-git clone --recursive https://github.com/QuickBox/QuickBox /root/QuickBox
+git clone --recursive https://github.com/QuickBox/QuickBox /etc/QuickBox
 ```
 
 ### [3]:
@@ -152,6 +152,15 @@ apt-get -yqq update; apt-get -yqq upgrade; apt-get -yqq install git lsb-release;
 git clone --recursive --branch "development" https://github.com/QuickBox/QuickBox /etc/QuickBox &&
 bash /etc/QuickBox/setup/quickbox-setup
 ```
+
+##Already have QuickBox installed and want to switch over to development?
+
+**EASY! Run the following command to grab current development repos ...**
+```
+mkdir /install/ && touch /install/.developer.lock \
+sudo box upgrade
+```
+
 
 ---
 
