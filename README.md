@@ -1,3 +1,5 @@
+[![QuickBox](https://github.com/QuickBox/quickbox_github_assets/blob/master/img/quickbox2.png "QuickBox")](https://quickbox.io)
+
 
 ## To make use of the GitHub repo (all future updates posted here!)
 >This step is only required for users who are coming off of our self-hosted GitLab repositories. If you are installing from fresh, please see [How to install](#how-to-install)
@@ -59,7 +61,7 @@ grsec is built into OVH's custom kernel and it absolutely wrecks havoc when usin
 > Please understand that we do not want to push this project as a means to supply a commercially used product, ie; seedbox provider - so keep this in mind - only if you wish to sale slots on your server. Though it is very multi-user friendly... it is also not free of it's faults due to it's high amount of capabilities and being publicly available. This is a community based project that is a measure of goodwill to be given to such an outspoken and freethinking community.
 
 ### A Preview of Quick Box
-https://quickbox.io/video/quickbox-video-demo-tour.mp4
+![QuickBox Preview - Smoked Theme](https://github.com/QuickBox/quickbox_github_assets/blob/master/img/quickbox_preview-theme_smoked.gif "QuickBox Preview - Smoked Theme")
 
 ---
 
