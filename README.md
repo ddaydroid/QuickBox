@@ -1,6 +1,6 @@
-## We are currently converting the entire QuickBox ecosystem over to GitHub for better handling. We will post more info shortly on how to convert your current install to make use of the GitHub repo.
 
 ## To make use of the GitHub repo (all future updates posted here!)
+>This step is only required for users who are coming off of our self-hosted GitLab repositories. If you are installing from fresh, please see [How to install](#how-to-install)
 
 ### [1]:
 login to your server via ssh. Gain root access with `sudo su` followed up with `cd` to place you in your /root directory. Once in your /root directory, type the following to remove your current local QuickBox respositories.
@@ -17,7 +17,7 @@ git clone --recursive https://github.com/QuickBox/QuickBox /etc/QuickBox
 ### [3]:
 update your current update function by doing the following:
 ```
-local_packages=/root/QuickBox/packages/
+local_packages=/etc/QuickBox/packages/
 rm -rf /usr/local/bin/quickbox
 cp -r ${local_packages}/. /usr/local/bin/quickbox
 dos2unix $(find /usr/local/bin/quickbox -type f)
@@ -138,8 +138,8 @@ After that access your box using a SSH client, like PuTTY.
 **Run the following command to grab our latest stable release ...**
 ```
 apt-get -yqq update; apt-get -yqq upgrade; apt-get -yqq install git lsb-release; \
-git clone --recursive https://github.com/QuickBox/QuickBox /root/QuickBox &&
-bash /root/QuickBox/setup/quickbox-setup
+git clone --recursive https://github.com/QuickBox/QuickBox /etc/QuickBox &&
+bash /etc/QuickBox/setup/quickbox-setup
 ```
 
 
