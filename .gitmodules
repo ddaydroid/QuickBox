@@ -25,3 +25,4 @@
 [submodule "setup"]
 	path = setup
 	url = git@github.com:Aniverse/setup.git
+	branch = master
