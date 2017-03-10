@@ -1,7 +1,3 @@
-[submodule "setup"]
-	path = setup
-	url = https://github.com/QuickBox/quickbox_setup.git
-	branch = master
 [submodule "dashboard"]
 	path = dashboard
 	url = https://github.com/QuickBox/quickbox_dashboard.git
