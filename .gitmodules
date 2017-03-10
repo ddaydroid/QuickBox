@@ -22,7 +22,3 @@
 		path = rttheme
 		url = https://github.com/QuickBox/club-QuickBox.git
 		branch = master
-[submodule "setup"]
-	path = setup
-	url = git@github.com:Aniverse/setup.git
-	branch = master
